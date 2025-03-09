@@ -239,7 +239,7 @@ const About = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            href="#/contact" // Use hash-based URL for GitHub Pages
+            to="/contact" // Use hash-based URL for GitHub Pages
             className="bg-white text-[#213555] px-6 py-3 rounded-lg hover:bg-[#ede9e9] transition duration-300"
           >
             Contact with Us
