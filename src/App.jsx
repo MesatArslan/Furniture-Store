@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'; // Use HashRouter
 import Navbar from './assets/components/Navbar';
 import Home from './assets/pages/Home';
 import About from './assets/pages/About';
@@ -7,7 +7,7 @@ import Contact from './assets/pages/Contact';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/"> {/* Add basename if your app is in a subdirectory */}
       <div className="font-sans">
         <Navbar />
         <Routes>
