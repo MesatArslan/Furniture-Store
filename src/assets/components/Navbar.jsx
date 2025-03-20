@@ -48,11 +48,11 @@ const Navbar = () => {
               className="h-12 w-12 sm:h-14 sm:w-14 rounded-lg" // Increased size for mobile
             />
             <Link
-              to="/"
-              className="text-3xl sm:text-3xl font-extrabold bg-gradient-to-r from-[#D8C4B6] via-[#F5EFE7] to-[#3E5879] bg-clip-text text-transparent drop-shadow-lg bg-[length:200%_200%] animate-gradientText" // Increased text size for mobile
-            >
-              FurniStore
-            </Link>
+  to="/"
+  className="text-3xl sm:text-3xl font-extrabold bg-gradient-to-r from-[#3E5879] via-[#c8b4a6] to-[#d5beae] bg-clip-text text-transparent drop-shadow-lg bg-[length:200%_200%] animate-gradientText "
+>
+  FurniStore
+</Link>
           </div>
 
           {/* Navigation Links (Desktop) */}
