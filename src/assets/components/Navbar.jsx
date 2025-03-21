@@ -41,15 +41,15 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4">
         <div className="flex justify-between items-center">
           {/* Logo ve Marka İsmi */}
-          <div className="flex items-center space-x-2 sm:space-x-4">
+          <div className="flex items-center space-x-2 sm:space-x-3">
             <img
               src={logo} // Logo resmini buraya ekleyin
               alt="FurniStore Logo"
-              className="h-12 w-12 sm:h-14 sm:w-14 rounded-lg" // Increased size for mobile
+              className="h-12 w-12 sm:h-16 sm:w-16 rounded-lg -ml-4" // Increased size for mobile
             />
             <Link
   to="/"
-  className="text-3xl sm:text-3xl font-extrabold bg-gradient-to-r from-[#3E5879] via-[#c8b4a6] to-[#d5beae] bg-clip-text text-transparent drop-shadow-lg bg-[length:200%_200%] animate-gradientText "
+  className="text-3xl sm:text-3xl font-extrabold bg-gradient-to-r from-[#3E5879] via-[#c8b4a6] to-[#d5beae] bg-clip-text text-transparent drop-shadow-lg bg-[length:200%_200%] animate-gradientText -ml-1"
 >
   FurniStore
 </Link>
